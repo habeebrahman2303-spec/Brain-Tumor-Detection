@@ -1,55 +1,24 @@
-# Brain Tumor Detection using Deep Learning
+# ?? NeuroScan AI - Brain Tumor Detection
 
-A deep learning-based web application that detects brain tumors from MRI scans using CNN and Streamlit.
+## Overview
+A deep learning-powered web app that classifies brain MRI scans into 4 categories: Glioma, Meningioma, Pituitary Tumor, or Healthy.
 
 ## Features
-- MRI image classification
-- Real-time prediction
-- Confidence score visualization
-- Brain tumor probability detection
-- Modern Streamlit user interface
+- Real-time MRI scan classification
+- 4-class CNN model (Glioma, Meningioma, Pituitary, Healthy)
+- Confidence scoring and probability breakdown
+- Enhanced contrast view and attention heatmap
+- Scan history tracking
+- Beautiful sci-fi UI with animations
 
-## Tumor Classes
-- Glioma
-- Meningioma
-- Pituitary
-- Healthy
+## How to Run
+1. Clone the repo
+2. Install dependencies: pip install -r requirements.txt
+3. Add brain_tumor_model.keras to the folder
+4. Run: streamlit run TumorTesting.py
 
-## Technologies Used
+## Tech Stack
 - Python
 - TensorFlow / Keras
-- CNN
 - Streamlit
-- NumPy
-- Pillow
-
-## Deep Learning Workflow
-- Image preprocessing
-- Image resizing (128x128)
-- Normalization
-- CNN model prediction
-- Multi-class classification
-
-## Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run TumorTesting.py
-```
-
-## Application Preview
-
-### Home Page
-![Home](screenshots/home.png)
-
-### Upload Interface
-![Upload](screenshots/upload.png)
-
-### Prediction Result
-![Result](screenshots/result.png)
-
-## Note
-Model file not uploaded due to GitHub file size limits.
-
-## Disclaimer
-This project is for educational purposes only and not for real medical diagnosis.
+- Pillow / NumPy
