@@ -3,3 +3,4 @@ venv/
 *.keras
 __pycache__/
 .vscode/
+screenshots/
