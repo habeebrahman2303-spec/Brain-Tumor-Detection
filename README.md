@@ -1,24 +1,30 @@
-# ?? NeuroScan AI - Brain Tumor Detection
+# ?? NeuroScan AI — Brain Tumor Detection
 
-## Overview
-A deep learning-powered web app that classifies brain MRI scans into 4 categories: Glioma, Meningioma, Pituitary Tumor, or Healthy.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
 
-## Features
-- Real-time MRI scan classification
-- 4-class CNN model (Glioma, Meningioma, Pituitary, Healthy)
-- Confidence scoring and probability breakdown
-- Enhanced contrast view and attention heatmap
-- Scan history tracking
-- Beautiful sci-fi UI with animations
+## ?? Overview
+A deep learning web app that classifies brain MRI scans into 4 categories using a CNN model.
 
-## How to Run
-1. Clone the repo
-2. Install dependencies: pip install -r requirements.txt
-3. Add brain_tumor_model.keras to the folder
-4. Run: streamlit run TumorTesting.py
+## ?? Classifications
+| Type | Description |
+|------|-------------|
+| ? Glioma | Most aggressive — malignant glial cell tumor |
+| ? Meningioma | Usually benign — meningeal tumor |
+| ? Pituitary | Hormonal impact — pituitary adenoma |
+| ? Healthy | No tumor detected |
 
-## Tech Stack
-- Python
+## ?? How to Run
+1. Clone this repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Add `brain_tumor_model.keras` to the folder
+4. Run: `streamlit run TumorTesting.py`
+
+## ??? Tech Stack
+- Python 3.11
 - TensorFlow / Keras
 - Streamlit
 - Pillow / NumPy
+
+## ????? Made by Habeeb Rahman
